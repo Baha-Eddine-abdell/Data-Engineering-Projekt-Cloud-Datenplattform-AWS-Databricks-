@@ -47,4 +47,34 @@ Dashboarding Layer
 Data is used for KPIs, reporting, and business intelligence dashboards.
 Project Diagram
 
-The repository includes a visual architecture diagram illustrating the full data pipeline from ingestion to analytics output.
+Technologies Used
+Amazon Web Services (S3 Storage)
+Databricks
+SQL / PySpark
+Medallion Architecture (Bronze / Silver / Gold)
+Data Pipeline Orchestration Concepts
+BI Dashboard Layer
+
+Data Flow
+Data Ingestion (AWS S3)
+Raw data from Sportbar is stored in Amazon S3 buckets.
+Bronze Layer (Raw Data)
+Data is ingested into Databricks with minimal transformation.
+Silver Layer (Cleaned Data)
+Data is cleaned, standardized, and enriched.
+Gold Layer (Business Data)
+Final aggregated datasets are created for reporting and analytics.
+Dashboarding Layer
+Data is used for KPIs, reporting, and business intelligence dashboards.
+Project Diagram
+
+
+
+Use Case
+
+This project simulates a real-world post-acquisition data integration scenario, where data from a newly acquired company (Sportbar) is fully integrated into the parent organization (Atlixon) to enable:
+
+Unified reporting
+Cross-company analytics
+Data-driven decision-making
+Scalable enterprise data architecture
