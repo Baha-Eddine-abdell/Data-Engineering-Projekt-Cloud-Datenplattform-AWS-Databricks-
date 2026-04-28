@@ -55,7 +55,7 @@ Medallion Architecture (Bronze / Silver / Gold)
 Data Pipeline Orchestration Concepts
 BI Dashboard Layer
 
-Data Flow
+Data Flow:
 Data Ingestion (AWS S3)
 Raw data from Sportbar is stored in Amazon S3 buckets.
 Bronze Layer (Raw Data)
@@ -70,7 +70,7 @@ Project Diagram
 
 
 
-Use Case
+Use Case: 
 
 This project simulates a real-world post-acquisition data integration scenario, where data from a newly acquired company (Sportbar) is fully integrated into the parent organization (Atlixon) to enable:
 
